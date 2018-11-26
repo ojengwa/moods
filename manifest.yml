@@ -2,10 +2,10 @@
 declared-services:
   rtt-speech-to-text:
     label: speech_to_text
-    plan: standard
+    plan: lite
   rtt-tone-analyzer:
     label: tone_analyzer
-    plan: beta
+    plan: lite
 applications:
 - name: moods 
   memory: 256M
