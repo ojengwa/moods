@@ -8,7 +8,6 @@ declared-services:
     plan: beta
 applications:
 - name: moods 
-  host: moods 
   memory: 256M
   instances: 1
   path: .
