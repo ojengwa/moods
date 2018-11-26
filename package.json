@@ -6,7 +6,7 @@
     "start": "node app.js",
     "build": "browserify src/index.js | uglifyjs -nc > public/js/index.js",
     "watch": "watchify -v -d -o public/js/index.js src/index.js",
-    "postinstall": "bower install --alow-root && gulp"
+    "postinstall": "bower install --allow-root && gulp"
   },
   "dependencies": {
     "express": "4.13.x",
