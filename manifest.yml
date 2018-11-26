@@ -1,9 +1,9 @@
 ---
 declared-services:
-  rtt-speech-to-text:
+  moods-stt:
     label: speech_to_text
     plan: lite
-  rtt-tone-analyzer:
+  tone-analyzer-moods:
     label: tone_analyzer
     plan: lite
 applications:
